@@ -403,9 +403,16 @@ body {
 	background: #10251f;
 	border-radius: 8px;
 	color: #a9e6d7;
+	display: grid;
 	font-weight: 900;
+	line-height: 1.35;
 	padding: 16px 14px;
 	text-align: center;
+}
+
+.timeline-label span {
+	color: #6da99a;
+	font-size: 11px;
 }
 
 .timeline-body {
@@ -417,6 +424,69 @@ body {
 .timeline-body h3 {
 	font-size: 26px;
 	margin-bottom: 12px;
+}
+
+.timeline-break .timeline-label {
+	background: #dcebe6;
+	color: #24574b;
+}
+
+.timeline-break .timeline-label span {
+	color: #6a9187;
+}
+
+.timeline-break .timeline-body {
+	background: #edf4f1;
+}
+
+.timeline-break .timeline-body h3 {
+	font-size: 21px;
+}
+
+.session-detail {
+	background: #fff;
+	border: 1px solid #cfe1db;
+	border-left: 4px solid #16a085;
+	border-radius: 6px;
+	margin-top: 22px;
+	padding: 18px 20px;
+}
+
+.session-detail-heading {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 18px;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.session-detail-heading strong {
+	color: #17463c;
+}
+
+.session-detail-heading span {
+	color: #60716c;
+}
+
+.session-detail ol {
+	margin: 0;
+	padding-left: 22px;
+}
+
+.session-detail li {
+	border-top: 1px solid #e8efed;
+	padding: 8px 0;
+}
+
+.session-detail li:first-child {
+	border-top: 0;
+}
+
+.session-detail li > span {
+	color: #71827d;
+	float: right;
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .tag-list {
@@ -591,6 +661,15 @@ body {
 
 	.timeline-label {
 		text-align: left;
+	}
+
+	.timeline-label span {
+		display: none;
+	}
+
+	.session-detail li > span {
+		display: block;
+		float: none;
 	}
 
 	.tutorial-footer .container {
@@ -2022,7 +2101,7 @@ ul.social-network li {
 html {
 	scroll-behavior: smooth;
 }
-#overview, #Keynote_Speakers, #Schedules, #Call_4_papers {
+#overview, #modules, #speakers, #schedule, #verification, #Keynote_Speakers, #Schedules, #Call_4_papers {
 	scroll-margin-top: 50px;
 }
 .scrollup{

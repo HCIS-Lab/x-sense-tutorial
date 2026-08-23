@@ -31,7 +31,7 @@
 						<li><a href="#overview">Overview</a></li>
 						<li><a href="#modules">Modules</a></li>
 						<li><a href="#speakers">Speakers</a></li>
-						<li><a href="#structure">Structure</a></li>
+						<li><a href="#schedule">Schedule</a></li>
 						<li><a href="#verification">Verification</a></li>
 					</ul>
 				</div>
@@ -50,7 +50,7 @@
 					<h1>X-Sense: Cooperative Perception and Distributed Foundation Models for Smart Mobility</h1>
 					<p class="hero-lede">A full-day tutorial on cooperative sensing, multi-agent perception, distributed VLA agents, and scenario-based safety validation.</p>
 					<div class="hero-actions">
-						<a class="btn btn-primary" href="#modules">View Modules</a>
+						<a class="btn btn-primary" href="#schedule">View Schedule</a>
 						<a class="btn btn-ghost" href="#speakers">Speaker List</a>
 					</div>
 				</div>
@@ -191,6 +191,10 @@
 						<div><h3>Seth Zhao</h3><p>University of California, Los Angeles</p><span>Efficient V2X systems, quantization, cooperative perception</span></div>
 					</article>
 					<article class="speaker-card with-photo">
+						<img src="img/People/Wei-Chiu_Ma.png" alt="Wei-Chiu Ma">
+						<div><h3>Wei-Chiu Ma</h3><p>University of California, Los Angeles</p><span>Mobility algorithms, vision-language-action models, and V2X systems</span></div>
+					</article>
+					<article class="speaker-card with-photo">
 						<img src="img/People/Hsu-kuang_Chiu.jpg" alt="Hsu-kuang Chiu">
 						<div><h3>Hsu-kuang Chiu</h3><p>Carnegie Mellon University</p><span>Multimodal LLM-based cooperative autonomous driving</span></div>
 					</article>
@@ -226,63 +230,115 @@
 			</div>
 		</section>
 
-		<section id="structure" class="section structure-section">
+		<section id="schedule" class="section structure-section">
 			<div class="container">
 				<div class="section-heading">
-					<p class="eyebrow">Program Flow</p>
-					<h2>Full-day teaching plan</h2>
+					<p class="eyebrow">Tutorial Schedule</p>
+					<h2>A full day from needs to verification</h2>
+					<p class="section-note">All times are local. The afternoon algorithm block includes a special UCLA Mobility Lab session led by Prof. Wei-Chiu Ma.</p>
 				</div>
 				<div class="timeline">
 					<article class="timeline-item">
-						<div class="timeline-label">09:00</div>
+						<div class="timeline-label"><time datetime="08:55">08:55</time><span>–</span><time datetime="09:00">09:00</time></div>
 						<div class="timeline-body">
-							<h3>Opening Remarks and Tutorial Overview</h3>
-							<p><strong>Lead:</strong> Yi-Ting Chen</p>
-							<p>Introduce X-Sense, the organizing thesis, and the four guiding questions for the day.</p>
+							<h3>Opening</h3>
+							<p><strong>Speaker:</strong> Yi-Ting Chen</p>
+							<p>Welcome, tutorial overview, and the goals for the day.</p>
 						</div>
 					</article>
 					<article class="timeline-item">
-						<div class="timeline-label">09:10</div>
+						<div class="timeline-label"><time datetime="09:00">09:00</time><span>–</span><time datetime="10:00">10:00</time></div>
 						<div class="timeline-body">
-							<h3>Module 1: Motivation and Fundamental Challenges</h3>
-							<p><strong>Core speaker:</strong> Minkyoung Cho. <strong>Contributors:</strong> Minkyoung Cho, Zhenzhen Liu.</p>
-							<p>Limitations of ego-centric perception and real-world constraints in cooperation.</p>
+							<h3>Need &amp; Problem</h3>
+							<p><strong>Speaker:</strong> Yi-Ting Chen</p>
+							<p>Why cooperative sensing is needed, the limits of ego-centric perception, and the fundamental challenges introduced by cooperation.</p>
 							<ul class="tag-list">
 								<li>Occlusion</li><li>Limited FoV</li><li>Long-tail events</li><li>Synchronization</li><li>Latency</li><li>Privacy and security</li>
 							</ul>
 						</div>
 					</article>
 					<article class="timeline-item">
-						<div class="timeline-label">10:50</div>
+						<div class="timeline-label"><time datetime="10:00">10:00</time><span>–</span><time datetime="10:30">10:30</time></div>
 						<div class="timeline-body">
-							<h3>Module 2: Datasets and Data Infrastructure</h3>
-							<p><strong>Core speaker:</strong> Walter Zimmer. <strong>Contributors:</strong> Ross Greer, Yu-Hsiang Chen, Rui Song.</p>
-							<p>Ego, infrastructure, V2X, aerial, multi-view, and simulation datasets for cooperative perception.</p>
+							<h3>Dataset #1</h3>
+							<p><strong>Speaker:</strong> Walter Zimmer</p>
+							<p>Roadside infrastructure and V2X datasets for cooperative perception.</p>
 							<ul class="tag-list">
-								<li>Temporal alignment</li><li>Calibration</li><li>Cross-view annotation</li><li>Dataset bias</li><li>Domain gaps</li><li>Reproducibility</li>
+								<li>V2X data</li><li>Infrastructure sensing</li><li>Calibration</li><li>Temporal alignment</li>
 							</ul>
 						</div>
 					</article>
-					<article class="timeline-item">
-						<div class="timeline-label">13:30</div>
+					<article class="timeline-item timeline-break">
+						<div class="timeline-label"><time datetime="10:30">10:30</time><span>–</span><time datetime="11:00">11:00</time></div>
 						<div class="timeline-body">
-							<h3>Module 3: Algorithms for Cooperative Perception and Distributed Foundation Models</h3>
-							<p><strong>Core speaker:</strong> Min-Hung Chen. <strong>Contributors:</strong> Zewei Zhou, Seth Zhao, Hsu-kuang Chiu, Jinsu Yoo.</p>
+							<h3>Morning Break</h3>
+							<p>Coffee and conversation.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-label"><time datetime="11:00">11:00</time><span>–</span><time datetime="12:00">12:00</time></div>
+						<div class="timeline-body">
+							<h3>Dataset #2</h3>
+							<p><strong>Speaker:</strong> Yu-Hsiang Chen</p>
+							<p>Drone datasets, multi-view data, and heterogeneous traffic understanding.</p>
+							<ul class="tag-list">
+								<li>Aerial sensing</li><li>Multi-view data</li><li>Heterogeneous traffic</li><li>Cross-view annotation</li>
+							</ul>
+						</div>
+					</article>
+					<article class="timeline-item timeline-break">
+						<div class="timeline-label"><time datetime="12:00">12:00</time><span>–</span><time datetime="13:30">13:30</time></div>
+						<div class="timeline-body">
+							<h3>Lunch Break</h3>
+							<p>Lunch and informal discussion.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-label"><time datetime="13:30">13:30</time><span>–</span><time datetime="15:30">15:30</time></div>
+						<div class="timeline-body">
+							<h3>Algorithms</h3>
+							<p><strong>Speakers:</strong> Prof. Wei-Chiu Ma, Jinsu Yoo, and Hsu-kuang Chiu</p>
 							<p>Communication-aware algorithms, robust fusion, distributed foundation models, and VLA agents.</p>
 							<ul class="tag-list">
 								<li>Cooperative 3D perception</li><li>Cross-view representation</li><li>Spatio-temporal modeling</li><li>V2V-LLM</li><li>VLA agents</li><li>Uncertainty-aware fusion</li>
 							</ul>
+							<div class="session-detail">
+								<div class="session-detail-heading">
+									<strong>14:50–15:30 · UCLA Mobility Lab</strong>
+									<span>Prof. Wei-Chiu Ma</span>
+								</div>
+								<ol>
+									<li><time datetime="14:50">14:50</time> · Introduction to algorithms used at UCLA Mobility Lab <span>10 min</span></li>
+									<li><time datetime="15:00">15:00</time> · SpanVLA <span>10 min</span></li>
+									<li><time datetime="15:10">15:10</time> · QuantV2X <span>10 min</span></li>
+									<li><time datetime="15:20">15:20</time> · Q&amp;A <span>10 min</span></li>
+								</ol>
+							</div>
+						</div>
+					</article>
+					<article class="timeline-item timeline-break">
+						<div class="timeline-label"><time datetime="15:30">15:30</time><span>–</span><time datetime="16:00">16:00</time></div>
+						<div class="timeline-body">
+							<h3>Afternoon Break</h3>
+							<p>Coffee and conversation.</p>
 						</div>
 					</article>
 					<article class="timeline-item">
-						<div class="timeline-label">15:20</div>
+						<div class="timeline-label"><time datetime="16:00">16:00</time><span>–</span><time datetime="16:50">16:50</time></div>
 						<div class="timeline-body">
-							<h3>Module 4: Scenario-Based Safety Validation and Deployment</h3>
-							<p><strong>Core speaker:</strong> Yi-Ting Chen. <strong>Contributors:</strong> Qi Chen, Minkyoung Cho, Jiawei Yong, Yongkang Liu, Deyuan Qu.</p>
+							<h3>Verification</h3>
+							<p><strong>Speakers:</strong> Jiawei Yong and Yi-Ting Chen</p>
 							<p>Closed-loop evaluation, deployment readiness, system integration, and open problems.</p>
 							<ul class="tag-list">
 								<li>Stress testing</li><li>System metrics</li><li>OOD validation</li><li>Drift monitoring</li><li>Fail-safe design</li><li>Go/no-go criteria</li>
 							</ul>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-label"><time datetime="16:50">16:50</time><span>–</span><time datetime="17:00">17:00</time></div>
+						<div class="timeline-body">
+							<h3>Closing &amp; Q&amp;A</h3>
+							<p>Final questions, takeaways, and closing remarks.</p>
 						</div>
 					</article>
 				</div>
