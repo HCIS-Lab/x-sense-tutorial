@@ -374,6 +374,23 @@ body {
 	margin-bottom: 4px;
 }
 
+.speaker-card h3 a,
+.section-note a {
+	color: inherit;
+	text-decoration-color: rgba(12, 107, 93, 0.38);
+	text-decoration-line: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+}
+
+.speaker-card h3 a:hover,
+.speaker-card h3 a:focus,
+.section-note a:hover,
+.section-note a:focus {
+	color: #0c6b5d;
+	text-decoration-color: currentColor;
+}
+
 .speaker-card p {
 	color: #0c6b5d;
 	font-weight: 800;
