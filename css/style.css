@@ -129,6 +129,14 @@ body {
 	z-index: 2;
 }
 
+.hero-content::before,
+.hero-content::after,
+.tutorial-footer .container::before,
+.tutorial-footer .container::after {
+	content: none;
+	display: none;
+}
+
 .hero-copy {
 	max-width: 840px;
 }
@@ -551,6 +559,16 @@ body {
 	margin-bottom: 16px;
 }
 
+.tutorial-page .signal-panel h3,
+.tutorial-page .module-card h3,
+.tutorial-page .speaker-card h3,
+.tutorial-page .timeline-body h3,
+.tutorial-page .detail-card h3,
+.tutorial-page .verification-panel h3,
+.tutorial-page .checklist-panel h3 {
+	text-align: left;
+}
+
 .verification-panel,
 .checklist-panel {
 	background: rgba(255, 255, 255, 0.08);
@@ -561,6 +579,11 @@ body {
 .verification-panel li,
 .checklist-panel li {
 	color: #dbe8e4;
+}
+
+.verification-section a {
+	color: #8ee8d1;
+	font-weight: 700;
 }
 
 .checklist {
@@ -591,6 +614,7 @@ body {
 .tutorial-footer .container {
 	align-items: center;
 	display: flex;
+	gap: 24px;
 	justify-content: space-between;
 }
 
@@ -601,6 +625,20 @@ body {
 .tutorial-footer a {
 	color: #8ee8d1;
 	font-weight: 800;
+}
+
+@media (max-width: 1199px) {
+	.hero-content {
+		grid-template-columns: minmax(0, 1fr) 300px;
+	}
+
+	.tutorial-hero h1 {
+		font-size: 54px;
+	}
+
+	.module-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 }
 
 @media (max-width: 991px) {
@@ -684,11 +722,14 @@ body {
 	}
 
 	.timeline-label {
+		align-items: center;
+		display: flex;
+		gap: 8px;
 		text-align: left;
 	}
 
 	.timeline-label span {
-		display: none;
+		display: inline;
 	}
 
 	.session-detail li > span {
