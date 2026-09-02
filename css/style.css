@@ -21,8 +21,8 @@ body {
 .tutorial-page {
 	background: #f6f8f7;
 	color: #25322f;
-	font-size: 15px;
-	line-height: 1.65;
+	font-size: 17px;
+	line-height: 1.7;
 }
 
 .tutorial-page h1,
@@ -55,7 +55,7 @@ body {
 
 .tutorial-page header .navbar-nav > li > a {
 	color: #344842;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1;
 	margin-left: 4px;
 	text-transform: none;
@@ -84,7 +84,7 @@ body {
 
 .tutorial-brand span {
 	color: #1a2d28;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 700;
 	letter-spacing: 0;
 	white-space: nowrap;
@@ -135,7 +135,7 @@ body {
 
 .eyebrow {
 	color: #0e7b69;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 800;
 	letter-spacing: 0.12em;
 	margin-bottom: 12px;
@@ -148,15 +148,15 @@ body {
 
 .tutorial-hero h1 {
 	color: #fff;
-	font-size: 54px;
-	line-height: 1;
+	font-size: 60px;
+	line-height: 1.07;
 	margin-bottom: 22px;
 	max-width: 860px;
 }
 
 .hero-lede {
 	color: #dceae5;
-	font-size: 22px;
+	font-size: 24px;
 	line-height: 1.45;
 	margin-bottom: 30px;
 	max-width: 760px;
@@ -171,6 +171,7 @@ body {
 .tutorial-page .btn {
 	border: 0;
 	border-radius: 6px;
+	font-size: 16px;
 	font-weight: 800;
 	letter-spacing: 0;
 	padding: 12px 18px;
@@ -203,7 +204,7 @@ body {
 
 .hero-facts strong {
 	display: block;
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 1;
 	margin-bottom: 8px;
 }
@@ -211,7 +212,7 @@ body {
 .hero-facts span {
 	color: #d7e7e2;
 	display: block;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 1.35;
 }
 
@@ -248,14 +249,14 @@ body {
 }
 
 .section-heading h2 {
-	font-size: 40px;
+	font-size: 44px;
 	line-height: 1.18;
 	margin-bottom: 12px;
 }
 
 .section-note {
 	color: #6d7d78;
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: -4px;
 }
 
@@ -267,7 +268,7 @@ body {
 
 .overview-text {
 	color: #42534e;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.8;
 }
 
@@ -289,7 +290,7 @@ body {
 
 .signal-panel h3 {
 	color: #fff;
-	font-size: 22px;
+	font-size: 24px;
 }
 
 .signal-panel ul,
@@ -324,18 +325,19 @@ body {
 
 .module-index {
 	color: #0f7b68;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 900;
 	margin-bottom: 18px;
 }
 
 .module-card h3 {
-	font-size: 22px;
+	font-size: 24px;
 	margin-bottom: 12px;
 }
 
 .module-focus {
 	color: #40544e;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 1.5;
 	margin-bottom: 18px;
@@ -359,18 +361,18 @@ body {
 	align-items: center;
 	display: grid;
 	gap: 18px;
-	grid-template-columns: 86px minmax(0, 1fr);
+	grid-template-columns: 92px minmax(0, 1fr);
 }
 
 .speaker-card img {
 	aspect-ratio: 1;
 	border-radius: 8px;
 	object-fit: cover;
-	width: 86px;
+	width: 92px;
 }
 
 .speaker-card h3 {
-	font-size: 19px;
+	font-size: 21px;
 	margin-bottom: 4px;
 }
 
@@ -393,6 +395,7 @@ body {
 
 .speaker-card p {
 	color: #0c6b5d;
+	font-size: 16px;
 	font-weight: 800;
 	margin-bottom: 8px;
 }
@@ -400,7 +403,7 @@ body {
 .speaker-card span {
 	color: #60716c;
 	display: block;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.5;
 }
 
@@ -429,7 +432,7 @@ body {
 
 .timeline-label span {
 	color: #6da99a;
-	font-size: 11px;
+	font-size: 13px;
 }
 
 .timeline-body {
@@ -439,7 +442,7 @@ body {
 }
 
 .timeline-body h3 {
-	font-size: 26px;
+	font-size: 28px;
 	margin-bottom: 12px;
 }
 
@@ -457,7 +460,7 @@ body {
 }
 
 .timeline-break .timeline-body h3 {
-	font-size: 21px;
+	font-size: 23px;
 }
 
 .session-detail {
@@ -502,7 +505,7 @@ body {
 .session-detail li > span {
 	color: #71827d;
 	float: right;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700;
 }
 
@@ -518,7 +521,7 @@ body {
 	background: #e0eee9;
 	border-radius: 999px;
 	color: #17463c;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 800;
 	list-style: none;
 	padding: 6px 10px;
@@ -544,7 +547,7 @@ body {
 .detail-card h3,
 .verification-panel h3,
 .checklist-panel h3 {
-	font-size: 23px;
+	font-size: 25px;
 	margin-bottom: 16px;
 }
 
@@ -622,7 +625,7 @@ body {
 	}
 
 	.tutorial-hero h1 {
-		font-size: 48px;
+		font-size: 52px;
 	}
 
 	.hero-facts {
@@ -637,6 +640,10 @@ body {
 }
 
 @media (max-width: 767px) {
+	.tutorial-page {
+		font-size: 16px;
+	}
+
 	.tutorial-brand span {
 		display: none;
 	}
@@ -650,11 +657,11 @@ body {
 	}
 
 	.tutorial-hero h1 {
-		font-size: 38px;
+		font-size: 42px;
 	}
 
 	.hero-lede {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.hero-facts,
@@ -669,7 +676,7 @@ body {
 	}
 
 	.section-heading h2 {
-		font-size: 30px;
+		font-size: 34px;
 	}
 
 	.timeline-item {
@@ -2118,7 +2125,7 @@ ul.social-network li {
 html {
 	scroll-behavior: smooth;
 }
-#overview, #modules, #speakers, #schedule, #verification, #Keynote_Speakers, #Schedules, #Call_4_papers {
+#overview, #modules, #speakers, #schedule, #information, #Keynote_Speakers, #Schedules, #Call_4_papers {
 	scroll-margin-top: 50px;
 }
 .scrollup{
@@ -2539,7 +2546,7 @@ color:#000;
 
 .tutorial-page .tutorial-brand span {
 	color: #1a2d28;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 700;
 	letter-spacing: 0;
 	white-space: nowrap;
